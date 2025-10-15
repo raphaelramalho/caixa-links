@@ -1,0 +1,55 @@
+.caixa-copy-link {
+    color          : #006bae;
+    font-size      : 0.80em;
+    margin         : 0 2px 0 8px;
+    text-decoration: none;
+    display        : inline-block;
+}
+
+.caixa-copy-link i {
+    margin-right: 8px;
+}
+
+.caixa-copy-btn[data-fallback="1"] {
+    font-size: 16px;
+}
+
+.caixa-copy-toast {
+    position     : fixed;
+    left         : 50%;
+    bottom       : 24px;
+    transform    : translateX(-50%);
+    background   : rgba(0, 0, 0, .85);
+    color        : #fff;
+    font-size    : 13px;
+    padding      : 8px 12px;
+    border-radius: 6px;
+    z-index      : 2147483647;
+    opacity      : 0;
+    transition   : opacity .15s ease-in-out;
+}
+
+.caixa-copy-toast.show {
+    opacity: 1;
+}
+
+/* Nova feature: variação visual para o link ao lado do título do imóvel */
+.caixa-copy-link--title {
+  font-size: 0.95em;
+  margin-left: 10px;
+  vertical-align: middle;
+}
+
+.caixa-copy-link--title i {
+  margin: 0;
+  display: inline-block;
+  width: 18px;
+  height: 18px;
+  line-height: 18px;
+  text-align: center;
+}
+
+.caixa-copy-link--title:focus,
+.caixa-copy-link--title:hover {
+  filter: brightness(0.9);
+}
