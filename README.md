@@ -35,7 +35,7 @@ caixa-copy-link/
 
 1. Clone ou baixe este repositório:
    ```bash
-   git clone https://github.com/seuusuario/caixa-copy-link.git
+   git clone https://github.com/raphaelramalho/caixa-links.git
    ```
    ou simplesmente **baixe como ZIP** e extraia a pasta.
 
@@ -123,7 +123,6 @@ Nenhuma informação é enviada a servidores externos. Toda a execução ocorre 
 | Listagem | Botão “Copiar link” ao lado de “Detalhes do imóvel” |
 | Detalhe | Ícone 🔗 ao lado do título do imóvel |
 
-*(adicione aqui prints da extensão em funcionamento)*
 
 ---
 
@@ -137,7 +136,7 @@ Você pode usar, modificar e redistribuir livremente, desde que mantenha os cré
 ## ✉️ Suporte
 
 Em caso de dúvidas, sugestões ou bugs, abra uma **issue** ou envie um e-mail para  
-📧 `seuemail@exemplo.com`
+📧 `contato@clicksky.com.br`
 
 ---
 
