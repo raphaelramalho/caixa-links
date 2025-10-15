@@ -1,8 +1,8 @@
 {
   "manifest_version": 3,
-  "name": "CAIXA Link Imóvel",
+  "name": "CAIXA – Copiar Link do Imóvel",
   "version": "1.1.0",
-  "description": "Adiciona um botão ao lado do coração que copia a URL direta do imóvel.",
+  "description": "Copia o link do imóvel, adiciona atalhos visuais e abre detalhes em nova aba.",
   "permissions": ["clipboardWrite"],
   "host_permissions": ["https://venda-imoveis.caixa.gov.br/*"],
   "content_scripts": [
@@ -10,16 +10,13 @@
       "matches": ["https://venda-imoveis.caixa.gov.br/*"],
       "js": ["content.js"],
       "css": ["styles.css"],
-      "run_at": "document_idle"
+      "run_at": "document_start"
     }
   ],
   "web_accessible_resources": [
     {
-      "resources": ["icon.png"],
+      "resources": ["injected.js"],
       "matches": ["https://venda-imoveis.caixa.gov.br/*"]
     }
-  ],
-  "icons": {
-    "128": "icon.png"
-  }
+  ]
 }
